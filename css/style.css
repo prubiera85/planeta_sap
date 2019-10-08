@@ -1,0 +1,104 @@
+/* ESTILOS CSS DEL MENÚ PRINCIPAL*/
+
+*{
+    box-sizing: border-box;
+}
+
+html,body{
+  font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    align-items: center; 
+    height: 100px;
+    margin: 0;
+    padding: 0;   
+    border-bottom: solid 2px #dd192f;
+}
+
+h1{
+    text-align: center;
+    font-size: 1.5em;
+    margin:auto;
+    font-weight: 800;
+}
+
+h2{
+    text-align: center;
+    font-size: 1.4em;
+    background-color:#dd192f;
+    color: #ffffff;  
+    font-weight: 600;
+    margin: 0;
+    padding: 0.8em;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    
+}
+
+
+.logo{
+    width: 200px;
+    margin: auto;
+    
+}
+
+
+.content{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+p{
+    text-align: center;
+    font-size: 0.95em;
+    font-weight: 600;
+    margin-top: 25px
+}
+
+.menu{
+    list-style: none;
+    margin: 2em auto;
+    padding: 0;
+    max-width: 450px;
+}
+
+.menu li{
+    padding: 1em;
+    border-bottom: 1px solid #d2d2d2;
+}
+
+.menu a{
+    color: #dd192f;
+    text-decoration: none;
+}
+
+.menu a:hover,
+.menu a:focus{
+    color:#981120;
+    text-decoration:underline;
+}
+
+.desactivado{
+    pointer-events: none;
+    cursor: default;
+    color: #888888!important;
+}
+
+
+footer{
+    position: fixed;
+    width: 100%;
+    background: #dcdcdc;
+    bottom: 0;
+    height:2em;
+}
