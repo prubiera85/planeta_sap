@@ -3,7 +3,7 @@ var sim = {
         0: {
             titulo: '1.	Informes en SAP: Sistemas Info',
             img: 'img/img_01.png',
-            rubric: 'Accede al informe de Registros Info donde hay los registros de compras por proveedor y genera una variante “TEST” con descripción “Variante test” protegida, para que solamente pueda modificarla el usuario de creación. Los valores del campo de búsqueda Proveedor y Organización de compras deben ser obligatorios. La variante tendrá los siguientes valores de campo: <br>Proveedor: 800084; Centro: 6001. <br>Una vez creada la variante debes ejecutar el informe.',
+            rubric: 'Accede al informe de Registros Info donde hay los registros de compras por proveedor y genera una variante “TEST” con descripción “Variante test” protegida, para que solamente pueda modificarla el usuario de creación. Los valores del campo de búsqueda Proveedor y Organización de compras deben ser obligatorios. La variante tendrá los siguientes valores de campo: <br>Proveedor: 800084; Centro: 6001; Organización de Compras: 01. <br>Una vez creada la variante debes ejecutar el informe.',
             goto: 1,
             elements: [{
                     element: 'input',
@@ -15,7 +15,7 @@ var sim = {
         }, 1: {
             titulo: '1.	Informes en SAP: Sistemas Info',
             img: 'img/img_03.png',
-            rubric: 'Accede al informe de Registros Info donde hay los registros de compras por proveedor y genera una variante “TEST” con descripción “Variante test” protegida, para que solamente pueda modificarla el usuario de creación. Los valores del campo de búsqueda Proveedor y Organización de compras deben ser obligatorios. La variante tendrá los siguientes valores de campo: <br>Proveedor: 800084; Centro: 6001. <br>Una vez creada la variante debes ejecutar el informe.',
+            rubric: 'Accede al informe de Registros Info donde hay los registros de compras por proveedor y genera una variante “TEST” con descripción “Variante test” protegida, para que solamente pueda modificarla el usuario de creación. Los valores del campo de búsqueda Proveedor y Organización de compras deben ser obligatorios. La variante tendrá los siguientes valores de campo: <br>Proveedor: 800084; Centro: 6001; Organización de Compras: 01. <br>Una vez creada la variante debes ejecutar el informe.',
             goto: 2,
             elements: [{
                     element: 'input',
@@ -39,7 +39,7 @@ var sim = {
         }, 2: {
             titulo: '1.	Informes en SAP: Sistemas Info',
             img: 'img/img_04.png',
-            rubric: 'Accede al informe de Registros Info donde hay los registros de compras por proveedor y genera una variante “TEST” con descripción “Variante test” protegida, para que solamente pueda modificarla el usuario de creación. Los valores del campo de búsqueda Proveedor y Organización de compras deben ser obligatorios. La variante tendrá los siguientes valores de campo: <br>Proveedor: 800084; Centro: 6001. <br>Una vez creada la variante debes ejecutar el informe.',
+            rubric: 'Accede al informe de Registros Info donde hay los registros de compras por proveedor y genera una variante “TEST” con descripción “Variante test” protegida, para que solamente pueda modificarla el usuario de creación. Los valores del campo de búsqueda Proveedor y Organización de compras deben ser obligatorios. La variante tendrá los siguientes valores de campo: <br>Proveedor: 800084; Centro: 6001; Organización de Compras: 01. <br>Una vez creada la variante debes ejecutar el informe.',
             elements: [{
                     element: 'div',
                     styles: 'top: 3.5%;left: 15.3%;height: 2.7%;width: 2%;',
@@ -48,9 +48,9 @@ var sim = {
                 }
             ]
         }, 3: {
-            titulo: '1.	Maestro de Materiales: datos de almacenamiento y stock',
+            titulo: '1.	Informes en SAP: Sistemas Info',
             img: 'img/img_06.png',
-            rubric: 'Accede al informe de Registros Info donde hay los registros de compras por proveedor y genera una variante “TEST” con descripción “Variante test” protegida, para que solamente pueda modificarla el usuario de creación. Los valores del campo de búsqueda Proveedor y Organización de compras deben ser obligatorios. La variante tendrá los siguientes valores de campo: <br>Proveedor: 800084; Centro: 6001. <br>Una vez creada la variante debes ejecutar el informe.',
+            rubric: 'Accede al informe de Registros Info donde hay los registros de compras por proveedor y genera una variante “TEST” con descripción “Variante test” protegida, para que solamente pueda modificarla el usuario de creación. Los valores del campo de búsqueda Proveedor y Organización de compras deben ser obligatorios. La variante tendrá los siguientes valores de campo: <br>Proveedor: 800084; Centro: 6001; Organización de Compras: 01. <br>Una vez creada la variante debes ejecutar el informe.',
             goto: 4,
             elements: [{
                     element: 'input',
@@ -86,7 +86,7 @@ var sim = {
         }, 4: {
             titulo: '1.	Maestro de Materiales: datos de almacenamiento y stock',
             img: 'img/img_09.png',
-            rubric: 'Accede al informe de Registros Info donde hay los registros de compras por proveedor y genera una variante “TEST” con descripción “Variante test” protegida, para que solamente pueda modificarla el usuario de creación. Los valores del campo de búsqueda Proveedor y Organización de compras deben ser obligatorios. La variante tendrá los siguientes valores de campo: <br>Proveedor: 800084; Centro: 6001. <br>Una vez creada la variante debes ejecutar el informe.',
+            rubric: 'Accede al informe de Registros Info donde hay los registros de compras por proveedor y genera una variante “TEST” con descripción “Variante test” protegida, para que solamente pueda modificarla el usuario de creación. Los valores del campo de búsqueda Proveedor y Organización de compras deben ser obligatorios. La variante tendrá los siguientes valores de campo: <br>Proveedor: 800084; Centro: 6001; Organización de Compras: 01. <br>Una vez creada la variante debes ejecutar el informe.',
             elements: [{
                     element: 'div',
                     styles: 'top: 3.5%;left: 15.3%;height: 2.7%;width: 2%;',
@@ -97,7 +97,7 @@ var sim = {
         }, 5: {
             titulo: '1.	Maestro de Materiales: datos de almacenamiento y stock',
             img: 'img/img_03.png',
-            rubric: 'Ejecuta el informe sin indicar el valor de Organización de Compras.',
+            rubric: 'Ejecuta el informe sin indicar el valor de Organización de Compras.<br>Proveedor: 800084; Centro: 6001; Organización de Compras: 01. <br>',
             goto: 6,
             elements: [{
                     element: 'input',
@@ -115,7 +115,7 @@ var sim = {
                     element: 'input',
                     type: 'text',
                     styles: 'top: 31.3%;left: 17.4%;height: 1.4%;width: 3%;',
-                    correct: '2001'
+                    correct: '6001'
                 }
             ]
         }, 6: {
@@ -132,7 +132,7 @@ var sim = {
         }, 7: {
             titulo: '1.	Maestro de Materiales: datos de almacenamiento y stock',
             img: 'img/img_03.png',
-            rubric: 'Ejecuta el informe indicando como Organización de Compras 01.',
+            rubric: 'Ejecuta el informe indicando como Organización de Compras 01.<br>Proveedor: 800084; Centro: 6001; Organización de Compras: 01. <br>',
             goto: 8,
             elements: [{
                         element: 'input',
@@ -150,13 +150,13 @@ var sim = {
                         element: 'input',
                         type: 'text',
                         styles: 'top: 31.3%;left: 17.4%;height: 1.4%;width: 3%;',
-                        correct: '2001'
+                        correct: '6001'
                     }
                 ]
         }, 8: {
-            titulo: '1.	Maestro de Materiales: datos de almacenamiento y stock',
+            titulo: '1.	Informes en SAP: Sistemas Info',
             img: 'img/img_12.png',
-            rubric: 'Ejecuta el informe indicando como Organización de Compras 01.',
+            rubric: 'Ejecuta el informe indicando como Organización de Compras 01.<br>Proveedor: 800084; Centro: 6001; Organización de Compras: 01. <br>',
             elements: [{
                     element: 'div',
                     styles: 'top: 15%;left: 2%;height: 79%;width: 38.3%;',
@@ -165,7 +165,7 @@ var sim = {
                 }
             ]
         }, 9: {
-            titulo: '1.	Maestro de Materiales: datos de almacenamiento y stock',
+            titulo: '1.	Informes en SAP: Sistemas Info',
             img: 'img/img_13.png',
             rubric: 'Ahora vuelve acceder al informe y borra la variante “TEST” creada.',
             elements: [{
@@ -176,7 +176,7 @@ var sim = {
                 }
             ]
         }, 10: {
-            titulo: '1.	Maestro de Materiales: datos de almacenamiento y stock',
+            titulo: '1.	Informes en SAP: Sistemas Info',
             img: 'img/img_14.png',
             rubric: 'Ahora vuelve acceder al informe y borra la variante “TEST” creada.',
             elements: [{
@@ -187,7 +187,7 @@ var sim = {
                 }
             ]
         }, 11: {
-            titulo: '1.	Maestro de Materiales: datos de almacenamiento y stock',
+            titulo: '1.	Informes en SAP: Sistemas Info',
             img: 'img/img_15.png',
             rubric: 'Ahora vuelve acceder al informe y borra la variante “TEST” creada.',
             elements: [{
@@ -198,7 +198,7 @@ var sim = {
                 }
             ]
         }, 12: {
-            titulo: '1.	Maestro de Materiales: datos de almacenamiento y stock',
+            titulo: '1.	Informes en SAP: Sistemas Info',
             img: 'img/img_16.png',
             rubric: 'Ahora vuelve acceder al informe y borra la variante “TEST” creada.',
             elements: [{
@@ -209,7 +209,7 @@ var sim = {
                 }
             ]
         }, 13: {
-            titulo: '1.	Maestro de Materiales: datos de almacenamiento y stock',
+            titulo: '1.	Informes en SAP: Sistemas Info',
             img: 'img/img_17.png',
             rubric: 'Observa el mensaje en la parte inferior de la ventana.',
             elements: [{

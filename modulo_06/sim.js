@@ -165,7 +165,7 @@ var sim = {
             goto: 15,
             elements: [{
                     element: 'div',
-                    styles: 'top: 45.8%;left: 48%;height: 22.7%;width: 25.4%;',
+                    styles: 'top: 45.8%;left: 48%;height: 2.7%;width: 25.4%;background:none;border:none',
                     correct: 'true'
                 }
             ]
@@ -176,7 +176,7 @@ var sim = {
             goto: 16,
             elements: [{
                     element: 'div',
-                    styles: 'top: 70.8%;left: 33.6%;height: 2.6%;width: 5.3%;',
+                    styles: 'top: 70.8%;left: 33.6%;height: 2.6%;width: 5.3%;background:none;border:none',
                     correct: 'true'
                 }
             ]
@@ -246,7 +246,7 @@ var sim = {
                     element: 'input',
                     type: 'text',
                     styles: 'top: 73%;left: 44.5%;height: 2%;width: 12.9%;',
-                    correct: '2'
+                    correct: '2,0002'
                 }
             ]
         }, 22: {
