@@ -3,7 +3,7 @@ var sim = {
         0: {
             titulo: '1.	Creación de un material',
             img: 'img/img_02.png',
-            rubric: 'Crea un material con referencia 0007350 y denominación BOTELLA PET 350 ML como producto acabado (ZPAC)  y como copia del material 030 ya existente. Pertenecerá al grupo de artículos  PA06 y su peso bruto y neto son 25 KG, con un volumen de 32.5 DM3. Este material está sujeto a control de calidad en el centro 0100. <br>El material debe estar abierto en el Centro 0100, para la organización de ventas COBE y canal de distribución IC. <br>Su precio será estándar y de valor 1000 €.',
+            rubric: 'Crea un material con referencia 0007350 y denominación BOTELLA PET 350 ML como producto acabado (ZPAC) y como copia del material 030 ya existente. Pertenecerá al grupo de artículos PA06 y su peso bruto y neto son 25 KG, con un volumen de 32.5 DM3. Este material está sujeto a control de calidad en el centro 0100. <br>El material debe estar abierto en el Centro 0100, para la organización de ventas COBE y canal de distribución IC. <br>Su precio será estándar y de valor 1000 €.',
             goto: 1,
             elements: [{
                     element: 'input',
@@ -15,7 +15,7 @@ var sim = {
         }, 1: {
             titulo: '1.	Creación de un material',
             img: 'img/img_03.png',
-            rubric: 'Crea un material con referencia 0007350 y denominación BOTELLA PET 350 ML como producto acabado (ZPAC)  y como copia del material 030 ya existente. Pertenecerá al grupo de artículos  PA06 y su peso bruto y neto son 25 KG, con un volumen de 32.5 DM3. Este material está sujeto a control de calidad en el centro 0100. <br>El material debe estar abierto en el Centro 0100, para la organización de ventas COBE y canal de distribución IC. <br>Su precio será estándar y de valor 1000 €.',
+            rubric: 'Crea un material con referencia 0007350 y denominación BOTELLA PET 350 ML como producto acabado (ZPAC) y como copia del material 030 ya existente. Pertenecerá al grupo de artículos PA06 y su peso bruto y neto son 25 KG, con un volumen de 32.5 DM3. Este material está sujeto a control de calidad en el centro 0100. <br>El material debe estar abierto en el Centro 0100, para la organización de ventas COBE y canal de distribución IC. <br>Su precio será estándar y de valor 1000 €.',
             goto: 2,
             elements: [{
                     element: 'input',
@@ -33,7 +33,7 @@ var sim = {
         }, 2: {
             titulo: '1.	Creación de un material',
             img: 'img/img_05.png',
-            rubric: 'Crea un material con referencia 0007350 y denominación BOTELLA PET 350 ML como producto acabado (ZPAC)  y como copia del material 030 ya existente. Pertenecerá al grupo de artículos  PA06 y su peso bruto y neto son 25 KG, con un volumen de 32.5 DM3. Este material está sujeto a control de calidad en el centro 0100. <br>El material debe estar abierto en el Centro 0100, para la organización de ventas COBE y canal de distribución IC. <br>Su precio será estándar y de valor 1000 €.',
+            rubric: 'Crea un material con referencia 0007350 y denominación BOTELLA PET 350 ML como producto acabado (ZPAC) y como copia del material 030 ya existente. Pertenecerá al grupo de artículos PA06 y su peso bruto y neto son 25 KG, con un volumen de 32.5 DM3. Este material está sujeto a control de calidad en el centro 0100. <br>El material debe estar abierto en el Centro 0100, para la organización de ventas COBE y canal de distribución IC. <br>Su precio será estándar y de valor 1000 €.',
             elements: [{
                     element: 'div',
                     styles: 'top: 10.5%;left: 2%;height: 2.5%;width: 8.1%;',
@@ -44,7 +44,7 @@ var sim = {
         }, 3: {
             titulo: '1.	Creación de un material',
             img: 'img/img_06.png',
-            rubric: 'Crea un material con referencia 0007350 y denominación BOTELLA PET 350 ML como producto acabado (ZPAC)  y como copia del material 030 ya existente. Pertenecerá al grupo de artículos  PA06 y su peso bruto y neto son 25 KG, con un volumen de 32.5 DM3. Este material está sujeto a control de calidad en el centro 0100. <br>El material debe estar abierto en el Centro 0100, para la organización de ventas COBE y canal de distribución IC. <br>Su precio será estándar y de valor 1000 €.',
+            rubric: 'Crea un material con referencia 0007350 y denominación BOTELLA PET 350 ML como producto acabado (ZPAC) y como copia del material 030 ya existente. Pertenecerá al grupo de artículos PA06 y su peso bruto y neto son 25 KG, con un volumen de 32.5 DM3. Este material está sujeto a control de calidad en el centro 0100. <br>El material debe estar abierto en el Centro 0100, para la organización de ventas COBE y canal de distribución IC. <br>Su precio será estándar y de valor 1000 €.',
             elements: [{
                     element: 'div',
                     styles: 'top: 23.5%;left: 21.5%;height: 2%;width: 18%;',
@@ -55,7 +55,7 @@ var sim = {
         }, 4: {
             titulo: '1.	Creación de un material',
             img: 'img/img_07.png',
-            rubric: 'Crea un material con referencia 0007350 y denominación BOTELLA PET 350 ML como producto acabado (ZPAC)  y como copia del material 030 ya existente. Pertenecerá al grupo de artículos  PA06 y su peso bruto y neto son 25 KG, con un volumen de 32.5 DM3. Este material está sujeto a control de calidad en el centro 0100. <br>El material debe estar abierto en el Centro 0100, para la organización de ventas COBE y canal de distribución IC. <br>Su precio será estándar y de valor 1000 €.',
+            rubric: 'Crea un material con referencia 0007350 y denominación BOTELLA PET 350 ML como producto acabado (ZPAC) y como copia del material 030 ya existente. Pertenecerá al grupo de artículos PA06 y su peso bruto y neto son 25 KG, con un volumen de 32.5 DM3. Este material está sujeto a control de calidad en el centro 0100. <br>El material debe estar abierto en el Centro 0100, para la organización de ventas COBE y canal de distribución IC. <br>Su precio será estándar y de valor 1000 €.',
             goto: 5,
             elements: [{
                     element: 'input',
@@ -66,14 +66,32 @@ var sim = {
                 {
                     element: 'input',
                     type: 'text',
-                    styles: 'top: 52.3%;left: 12.7%;height: 1.3%;width: 8.1%;',
+                    styles: 'top: 24.75%;left: 29.3%;height: 1.3%;width: 4.4%;',
+                    correct: 'PA06,pa06'
+                },,
+                {
+                    element: 'input',
+                    type: 'text',
+                    styles: 'top: 48%;left: 12.6%;height: 1.3%;width: 8.2%;',
+                    correct: '25'
+                },
+                {
+                    element: 'input',
+                    type: 'text',
+                    styles: 'top: 50.1%;left: 12.6%;height: 1.3%;width: 8.2%;',
+                    correct: '25'
+                },
+                {
+                    element: 'input',
+                    type: 'text',
+                    styles: 'top: 52.2%;left: 12.6%;height: 1.3%;width: 8.2%;',
                     correct: '32.5'
                 }
             ]
         }, 5: {
             titulo: '1.	Creación de un material',
             img: 'img/img_09.png',
-            rubric: 'Crea un material con referencia 0007350 y denominación BOTELLA PET 350 ML como producto acabado (ZPAC)  y como copia del material 030 ya existente. Pertenecerá al grupo de artículos  PA06 y su peso bruto y neto son 25 KG, con un volumen de 32.5 DM3. Este material está sujeto a control de calidad en el centro 0100. <br>El material debe estar abierto en el Centro 0100, para la organización de ventas COBE y canal de distribución IC. <br>Su precio será estándar y de valor 1000 €.',
+            rubric: 'Crea un material con referencia 0007350 y denominación BOTELLA PET 350 ML como producto acabado (ZPAC) y como copia del material 030 ya existente. Pertenecerá al grupo de artículos PA06 y su peso bruto y neto son 25 KG, con un volumen de 32.5 DM3. Este material está sujeto a control de calidad en el centro 0100. <br>El material debe estar abierto en el Centro 0100, para la organización de ventas COBE y canal de distribución IC. <br>Su precio será estándar y de valor 1000 €.',
             goto: 6,
             elements: [{
                     element: 'input',
@@ -85,7 +103,7 @@ var sim = {
         }, 6: {
             titulo: '1.	Creación de un material',
             img: 'img/img_10.png',
-            rubric: 'Crea un material con referencia 0007350 y denominación BOTELLA PET 350 ML como producto acabado (ZPAC)  y como copia del material 030 ya existente. Pertenecerá al grupo de artículos  PA06 y su peso bruto y neto son 25 KG, con un volumen de 32.5 DM3. Este material está sujeto a control de calidad en el centro 0100. <br>El material debe estar abierto en el Centro 0100, para la organización de ventas COBE y canal de distribución IC. <br>Su precio será estándar y de valor 1000 €.',
+            rubric: 'Crea un material con referencia 0007350 y denominación BOTELLA PET 350 ML como producto acabado (ZPAC) y como copia del material 030 ya existente. Pertenecerá al grupo de artículos PA06 y su peso bruto y neto son 25 KG, con un volumen de 32.5 DM3. Este material está sujeto a control de calidad en el centro 0100. <br>El material debe estar abierto en el Centro 0100, para la organización de ventas COBE y canal de distribución IC. <br>Su precio será estándar y de valor 1000 €.',
             goto: 7,
             elements: [{
                     element: 'input',
@@ -102,10 +120,10 @@ var sim = {
         }, 7: {
             titulo: '1.	Creación de un material',
             img: 'img/img_11.png',
-            rubric: 'Crea un material con referencia 0007350 y denominación BOTELLA PET 350 ML como producto acabado (ZPAC)  y como copia del material 030 ya existente. Pertenecerá al grupo de artículos  PA06 y su peso bruto y neto son 25 KG, con un volumen de 32.5 DM3. Este material está sujeto a control de calidad en el centro 0100. <br>El material debe estar abierto en el Centro 0100, para la organización de ventas COBE y canal de distribución IC. <br>Su precio será estándar y de valor 1000 €.',
+            rubric: 'Crea un material con referencia 0007350 y denominación BOTELLA PET 350 ML como producto acabado (ZPAC) y como copia del material 030 ya existente. Pertenecerá al grupo de artículos PA06 y su peso bruto y neto son 25 KG, con un volumen de 32.5 DM3. Este material está sujeto a control de calidad en el centro 0100. <br>El material debe estar abierto en el Centro 0100, para la organización de ventas COBE y canal de distribución IC. <br>Su precio será estándar y de valor 1000 €.',
             elements: [{
                     element: 'div',
-                    styles: 'top: 20.5%;left: 1.5%;height: 3%;width: 22%;',
+                    styles: 'top: 20.5%;left: 1.5%;height: 2%;width: 22%;background:none;border:none',
                     correct: 'true',
                     goto: 8
                 }
@@ -113,13 +131,12 @@ var sim = {
         }, 8: {
             titulo: '1.	Creación de un material',
             img: 'img/img_12.png',
-            rubric: 'Crea un material con referencia 0007350 y denominación BOTELLA PET 350 ML como producto acabado (ZPAC)  y como copia del material 030 ya existente. Pertenecerá al grupo de artículos  PA06 y su peso bruto y neto son 25 KG, con un volumen de 32.5 DM3. Este material está sujeto a control de calidad en el centro 0100. <br>El material debe estar abierto en el Centro 0100, para la organización de ventas COBE y canal de distribución IC. <br>Su precio será estándar y de valor 1000 €.',
+            rubric: 'Crea un material con referencia 0007350 y denominación BOTELLA PET 350 ML como producto acabado (ZPAC) y como copia del material 030 ya existente. Pertenecerá al grupo de artículos PA06 y su peso bruto y neto son 25 KG, con un volumen de 32.5 DM3. Este material está sujeto a control de calidad en el centro 0100. <br>El material debe estar abierto en el Centro 0100, para la organización de ventas COBE y canal de distribución IC. <br>Su precio será estándar y de valor 1000 €.',
             goto: 9,
             elements: [{
                     element: 'input',
                     type: 'text',
-                    styles: 'top: 18.6%;left: 17%;height: 1.3%;width: 18.9%;',
-                    correct: 'BOTELLA PET 350 ML'
+                    styles: 'top: 44%;left: 31.6%;height: 1.3%;width: 7.2%;',                    correct: '1000,1.000'
                 }
             ]
         }, 9: {
