@@ -30,7 +30,7 @@ var sim = {
             rubric: 'Comprueba la cantidad de stock libre de utilización que hay del material con referencia “0003184” en el periodo actual en:<br>Centro 0100 en todos sus almacenes',
             elements: [{
                     element: 'div',
-                    styles: 'top: 24%;left: 21%;height: 2.1%;width: 18%;',
+                    styles: 'top: 52%;left: 21%;height: 2.1%;width: 18%;background: none;border: none;',
                     correct: 'true',
                     goto: 3
                 }
@@ -53,7 +53,7 @@ var sim = {
             rubric: 'Haz click dentro del recuadro correspondiente',
             elements: [{
                     element: 'div',
-                    styles: 'top: 37.6%;left: 2%;height: 15.7%;width: 39.3%;"',
+                    styles: 'top: 37.6%;left: 2%;height: 15.7%;width: 39.3%;background:none;border:none',
                     correct: 'true',
                     goto: 5
                 }
@@ -88,7 +88,7 @@ var sim = {
             rubric: 'Comprueba la cantidad de stock libre de utilización que hay del material con referencia “0003184” en el periodo actual en:<br>Centro 0100 en el almacén de Materia Prima con código de almacén 001',
             elements: [{
                 element: 'div',
-                styles: 'top: 52%;left: 21%;height: 2.1%;width: 18%;',
+                styles: 'top: 52%;left: 21%;height: 2.1%;width: 18%;background:none;border:none',
                 correct: 'true',
                 goto: 8
             }
@@ -101,7 +101,13 @@ var sim = {
             elements: [{
                     element: 'input',
                     type: 'text',
-                    styles: 'top: 24.85%;left: 24.2%;height: 1.3%;width: 2%;',
+                    styles: 'top: 21.85%;left: 20.5%;height: 1.2%;width: 2%;',
+                    correct: '0100'
+                },
+                {
+                    element: 'input',
+                    type: 'text',
+                    styles: 'top: 23.85%;left: 20.5%;height: 1.2%;width: 2%;',
                     correct: '001'
                 }
             ]
@@ -112,7 +118,7 @@ var sim = {
             goto: 10,
             elements: [{
                     element: 'div',
-                    styles: 'top: 37.6%;left: 2%;height: 15.7%;width: 39.3%;"',
+                    styles: 'top: 37.6%;left: 2%;height: 15.7%;width: 39.3%;background:none;border:none',
                     correct: 'true',
                     goto: 10
                 }
@@ -124,7 +130,7 @@ var sim = {
             goto: 11,
             elements: [{
                     element: 'div',
-                    styles: 'top: 11%;left: 12%;height: 2%;width: 10%;',
+                    styles: 'top: 11%;left: 12%;height: 2%;width: 10%;background:none;border:none',
                     correct: 'true',
                     goto: 11
                 }
@@ -149,7 +155,7 @@ var sim = {
             goto: 13,
             elements: [{
                     element: 'div',
-                    styles: 'top: 37.6%;left: 2%;height: 15.7%;width: 39.3%;"',
+                    styles: 'top: 37.6%;left: 2%;height: 15.7%;width: 39.3%;background:none;border:none',
                     correct: 'true',
                     goto: 13
                 }
@@ -190,7 +196,7 @@ var sim = {
             goto: 16,
             elements: [{
                     element: 'div',
-                    styles: 'top: 36.2%;left: 26.75%;height: 1.8%;width: 29.8%;',
+                    styles: 'top: 36.2%;left: 26.75%;height: 1.8%;width: 29.8%;background:none;border:none',
                     correct: 'true',
                     goto: 16
                 }
@@ -222,7 +228,7 @@ var sim = {
                     element: 'input',
                     type: 'text',
                     styles: 'top: 31.5%;left: 9.7%;height: 1.3%;width: 2%;',
-                    correct: '001'
+                    correct: '009'
                 }
             ]
         }, 17: {

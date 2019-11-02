@@ -42,7 +42,7 @@ var sim = {
             rubric: 'Accede a los datos maestros de deudores para el deudor con código 9001030 y comprueba en que estructura organizativa está abierto sabiendo que la sociedad es COBE.<br>Datos a comprobar: Sociedad GL Asociada y Cuenta asociada',
             elements: [{
                     element: 'div',
-                    styles: 'top: 26.5%;left: 1.7%;height: 3.1%;width: 12%;',
+                    styles: 'top: 26.5%;left: 1.7%;height: 3.1%;width: 12%;background:none;border:none',
                     correct: 'true',
                     goto: 3
                 }
@@ -53,7 +53,7 @@ var sim = {
             rubric: 'Accede a los datos maestros de deudores para el deudor con código 9001030 y comprueba en que estructura organizativa está abierto sabiendo que la sociedad es COBE.<br>Datos a comprobar: Sociedad GL Asociada y Cuenta asociada',
             elements: [{
                     element: 'div',
-                    styles: 'top: 10.5%;left: 8%;height: 3%;width: 10%;',
+                    styles: 'top: 10.5%;left: 8%;height: 3%;width: 10%;background:none;border:none',
                     correct: 'true',
                     goto: 4
                 }
@@ -64,7 +64,7 @@ var sim = {
             rubric: 'Accede a los datos maestros de deudores para el deudor con código 9001030 y comprueba en que estructura organizativa está abierto sabiendo que la sociedad es COBE.<br>Datos a comprobar: Sociedad GL Asociada y Cuenta asociada',
             elements: [{
                     element: 'div',
-                    styles: 'top: 26.5%;left: 1.7%;height: 3.1%;width: 14%;',
+                    styles: 'top: 26.5%;left: 1.7%;height: 3.1%;width: 14%;background:none;border:none',
                     correct: 'true',
                     goto: 5
                 }
@@ -111,7 +111,7 @@ var sim = {
             rubric: 'Localiza el documento contable 180000022 para la sociedad TOSC que pertenece al ejercicio del año 2016 y comprueba las cuentas del libro mayor.',
             elements: [{
                 element: 'div',
-                styles: 'top: 10.5%;left: 25.5%;height: 3.1%;width: 11%;',
+                styles: 'top: 10.5%;left: 25.5%;height: 3.1%;width: 11%;background:none;border:none',
                 correct: 'true',
                 goto: 8
             }
@@ -122,7 +122,7 @@ var sim = {
             rubric: 'Localiza el documento contable 180000022 para la sociedad TOSC que pertenece al ejercicio del año 2016 y comprueba las cuentas del libro mayor.',
             elements: [{
                     element: 'div',
-                    styles: 'top: 35.6%;left: 1.2%;height: 10%;width: 44.3%;',
+                    styles: 'top: 35.6%;left: 1.2%;height: 10%;width: 44.3%;background:none;border:none',
                     correct: 'true',
                     goto: 9
                 }
@@ -130,7 +130,7 @@ var sim = {
         }, 9: {
             titulo: '3.	Cuentas a cobrar FI-AR: documentos contables y lista de partidas abiertas',
             img: 'img/img_14.png',
-            rubric: 'Comprueba todas las partidas de clientes contabilizadas a la sociedad COBE entre el 26.01.2018 y el 30.06.2018, los clientes a los que corresponde, su importe, cuenta de libro mayo y Sociedad GL contra las que están contabilizadas.',
+            rubric: 'Comprueba todas las partidas de clientes contabilizadas a la sociedad COBE entre el 26.01.2018 y el 30.06.2018, los clientes a los que corresponde, su importe, cuenta de libro mayor y Sociedad GL contra las que están contabilizadas.',
             goto: 10,
             elements: [{
                 element: 'input',
@@ -142,8 +142,7 @@ var sim = {
         }, 10: {
             titulo: '3.	Cuentas a cobrar FI-AR: documentos contables y lista de partidas abiertas',
             img: 'img/img_16.png',
-            rubric: 'Comprueba todas las partidas de clientes contabilizadas a la sociedad COBE entre el 26.01.2018 y el 30.06.2018, los clientes a los que corresponde, su importe, cuenta de libro mayo y Sociedad GL contra las que están contabilizadas.',
-            goto: 11,
+            rubric: 'Comprueba todas las partidas de clientes contabilizadas a la sociedad COBE entre el 26.01.2018 y el 30.06.2018, los clientes a los que corresponde, su importe, cuenta de libro mayor y Sociedad GL contra las que están contabilizadas.',
             elements: [{
                     element: 'input',
                     type: 'text',
@@ -161,15 +160,20 @@ var sim = {
                     type: 'text',
                     styles: 'top: 54.6%;left: 29.3%;height: 1.4%;width: 6.7%;',
                     correct: '30.06.2018'
+                },{
+                    element: 'div',
+                    styles: 'top: 10.7%;left: 1%;height: 3%;width: 2%;background:none;border:none',
+                    correct: 'true',
+                    goto: 11
                 }
             ]
         }, 11: {
             titulo: '3.	Cuentas a cobrar FI-AR: documentos contables y lista de partidas abiertas',
             img: 'img/img_17.png',
-            rubric: 'Comprueba todas las partidas de clientes contabilizadas a la sociedad COBE entre el 26.01.2018 y el 30.06.2018, los clientes a los que corresponde, su importe, cuenta de libro mayo y Sociedad GL contra las que están contabilizadas.',
+            rubric: 'Comprueba todas las partidas de clientes contabilizadas a la sociedad COBE entre el 26.01.2018 y el 30.06.2018, los clientes a los que corresponde, su importe, cuenta de libro mayor y Sociedad GL contra las que están contabilizadas.',
             elements: [{
                     element: 'div',
-                    styles: 'top: 24.7%;left: 1%;height: 27%;width: 81.5%;',
+                    styles: 'top: 24.7%;left: 1%;height: 27%;width: 81.5%;background:none;border:none',
                     correct: 'true',
                     goto: 12
                 }
@@ -177,7 +181,7 @@ var sim = {
         }, 12: {
             titulo: '3.	Cuentas a cobrar FI-AR: documentos contables y lista de partidas abiertas',
             img: 'img/img_18.png',
-            rubric: 'Comprueba el sumatorio total de partidas abiertas a fecha 30.07.2018 que hay en todas las sociedades para el cliente con código 4400000212. Comprueba también cuenta de libro mayo y Sociedad GL contra las que están contabilizadas y n de factura.',
+            rubric: 'Comprueba el sumatorio total de partidas abiertas a fecha 30.07.2018 que hay en todas las sociedades para el cliente con código 4400000212. Comprueba también cuenta de libro mayor y Sociedad GL contra las que están contabilizadas y n de factura.',
             goto: 13,
             elements: [{
                     element: 'input',
@@ -195,18 +199,18 @@ var sim = {
         }, 13: {
             titulo: '3.	Cuentas a cobrar FI-AR: documentos contables y lista de partidas abiertas',
             img: 'img/img_19.png',
-            rubric: 'Comprueba el sumatorio total de partidas abiertas a fecha 30.07.2018 que hay en todas las sociedades para el cliente con código 4400000212. Comprueba también cuenta de libro mayo y Sociedad GL contra las que están contabilizadas y n de factura.',
+            rubric: 'Comprueba el sumatorio total de partidas abiertas a fecha 30.07.2018 que hay en todas las sociedades para el cliente con código 4400000212. Comprueba también cuenta de libro mayor y Sociedad GL contra las que están contabilizadas y n de factura.',
             goto: 14,
             elements: [{
                     element: 'div',
-                    styles: 'top: 26%;left: 40.5%;height: 2.5%;width: 9%;',
+                    styles: 'top: 26%;left: 40.5%;height: 2.5%;width: 9%',
                     correct: 'true'
                 }
             ]
         }, 14: {
             titulo: '3.	Cuentas a cobrar FI-AR: documentos contables y lista de partidas abiertas',
             img: 'img/img_20.png',
-            rubric: 'Comprueba el sumatorio total de partidas abiertas a fecha 30.07.2018 que hay en todas las sociedades para el cliente con código 4400000212. Comprueba también cuenta de libro mayo y Sociedad GL contra las que están contabilizadas y n de factura.',
+            rubric: 'Comprueba el sumatorio total de partidas abiertas a fecha 30.07.2018 que hay en todas las sociedades para el cliente con código 4400000212. Comprueba también cuenta de libro mayor y Sociedad GL contra las que están contabilizadas y n de factura.',
             goto: 15,
             elements: [{
                     element: 'div',
@@ -217,7 +221,7 @@ var sim = {
         }, 15: {
             titulo: '3.	Cuentas a cobrar FI-AR: documentos contables y lista de partidas abiertas',
             img: 'img/img_21.png',
-            rubric: 'Comprueba el sumatorio total de partidas abiertas a fecha 30.07.2018 que hay en todas las sociedades para el cliente con código 4400000212. Comprueba también cuenta de libro mayo y Sociedad GL contra las que están contabilizadas y n de factura.',
+            rubric: 'Comprueba el sumatorio total de partidas abiertas a fecha 30.07.2018 que hay en todas las sociedades para el cliente con código 4400000212. Comprueba también cuenta de libro mayor y Sociedad GL contra las que están contabilizadas y n de factura.',
             goto: 16,
             elements: [{
                     element: 'div',
