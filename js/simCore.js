@@ -97,5 +97,5 @@ function simCore() {
             document.querySelector('.back').setAttribute('style', 'visibility: visible');
         }
     }
-    nextOne(1);
+    nextOne(0);
 }

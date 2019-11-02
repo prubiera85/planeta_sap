@@ -49,7 +49,8 @@ var sim = {
             titulo: '2.- Acceso a SAP LOG ON',
             img: 'img/006.png',
             styles: 'transform: scale(1.5); margin: 14% 25%;',
-            rubric: 'Para el acceso a SAP entorno productivo se seleccionará la opción ECP. Debes acceder con: Mandante 010; Usuario: DEUSTO; Password: SAP2018@ e idioma Español o Inglés. Después haz click en la pantalla para continuar.',
+            rubric: 'Para el acceso a SAP entorno productivo se seleccionará la opción ECP. Debes acceder con: Mandante 010; Usuario: DEUSTO; Password: SAP2018@ e idioma Español o Inglés.',
+            // rubric: 'Para el acceso a SAP entorno productivo se seleccionará la opción ECP. Debes acceder con: Mandante 010; Usuario: DEUSTO; Password: SAP2018@ e idioma Español o Inglés. Después haz click en la pantalla para continuar.',
             goto: 5,
             elements: [{
                     element: 'input',
@@ -77,7 +78,8 @@ var sim = {
             titulo: '2.- Acceso a SAP LOG ON',
             img: 'img/008.png',
             styles: 'transform: scale(1.5); margin: 14% 25%;',
-            rubric: 'Modifica la contraseña del usuario de acceso y pulsa el botón de visto.',
+            // rubric: 'Modifica la contraseña del usuario de acceso y pulsa el botón de visto.',
+            rubric: 'Modifica la contraseña del usuario de acceso a SAP2019@” y que la única contraseña aceptada sea SAP2019@. Debe cumplirse la condición que los carácteres de arriba y abajo sean iguales.',
             elements: [{
                     element: 'input',
                     type: 'password',
@@ -554,7 +556,7 @@ var sim = {
                     element: 'input',
                     type: 'text',
                     styles: 'top: 4%;left: 2.7%;height: 1.7%;width: 7.2%;',
-                    correct: 'migo, MIGO'
+                    correct: 'migo,MIGO'
                 }
             ]
         }, 33: {
