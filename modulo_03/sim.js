@@ -228,7 +228,7 @@ var sim = {
                     element: 'input',
                     type: 'text',
                     styles: 'top: 31.5%;left: 9.7%;height: 1.3%;width: 2%;',
-                    correct: '009'
+                    correct: '001'
                 }
             ]
         }, 17: {

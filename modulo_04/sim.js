@@ -162,7 +162,7 @@ var sim = {
             rubric: 'Haz click en visualizar detalles de cabecera para ver las condiciones del pedido y marca el % de descuento aplicado con la condición ZFCC',
             elements: [{
                 element: 'div',
-                styles: 'top: 23.3%;left: 39.5%;height: 2%;width: 14%;',
+                styles: 'top: 20.5%;left: 39.5%;height: 2.6%;width: 2%;',
                 correct: 'true',
                 goto: 11
             }
