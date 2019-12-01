@@ -9,7 +9,7 @@ function simCore() {
             nextOne(next);
         }
     }
-    
+
 
     function verify(event) {
         event.preventDefault();
@@ -21,7 +21,7 @@ function simCore() {
                     total++;
                 }
                 if (element.type === "checkbox") {
-                    if (element.checked){
+                    if (element.checked) {
                         total++;
                     }
                 }
@@ -39,6 +39,22 @@ function simCore() {
         });
         document.querySelector('img').removeAttribute('styles');
     }
+
+    var enterPressed = false;
+    var nextSlideEnter;
+
+    function enterListener(event) {
+        enterPressed = false;
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            document.removeEventListener("keyup", enterListener);
+            enterPressed = true;
+            reset();
+            nextOne(nextSlideEnter);
+        }
+    }
+
+
     function nextOne(next) {
         var step = sim.steps[next];
         if (step) {
@@ -60,17 +76,24 @@ function simCore() {
                 if (item.goto) {
                     tag.goto = item.goto;
                 }
+                if (item.element === "div") {
+                    if (item.pressEnter) {
+                        nextSlideEnter = item.goto;
+                        document.addEventListener("keyup", enterListener);
+                    }
+                }
+
                 if (item.element === "input") {
                     tag.setAttribute("type", item.type);
                     tag.setAttribute("tabindex", (index + 1));
-                    tag.addEventListener("keyup", function(event) {
+                    tag.addEventListener("keyup", function (event) {
                         event.preventDefault();
                         if (event.keyCode === 13) {
                             verify(event);
                         }
                     });
                     tag.addEventListener('blur', verify, false);
-                } else {                            
+                } else {
                     tag.addEventListener('click', clickMe, false);
                 }
                 document.querySelector('#sys').appendChild(tag);
@@ -83,17 +106,17 @@ function simCore() {
             if (step.goback != undefined) {
                 reset();
                 nextOne(step.goback);
-            }else{
-                if (next-1>=0){
+            } else {
+                if (next - 1 >= 0) {
                     reset();
-                    nextOne(next-1);
+                    nextOne(next - 1);
                 }
             }
         }, false);
 
-        if (next==0){
+        if (next == 0) {
             document.querySelector('.back').setAttribute('style', 'visibility: hidden');
-        }else{
+        } else {
             document.querySelector('.back').setAttribute('style', 'visibility: visible');
         }
     }
