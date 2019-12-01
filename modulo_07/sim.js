@@ -84,7 +84,7 @@ var sim = {
                 }
             ]
         }, 4: {
-            titulo: '1.	Maestro de Materiales: datos de almacenamiento y stock',
+            titulo: '1.	Informes en SAP: Sistemas Info',
             img: 'img/img_09.png',
             rubric: 'Accede al informe de Registros Info donde hay los registros de compras por proveedor y genera una variante “TEST” con descripción “Variante test” protegida, para que solamente pueda modificarla el usuario de creación. Los valores del campo de búsqueda Proveedor y Organización de compras deben ser obligatorios. La variante tendrá los siguientes valores de campo: <br>Proveedor: 800084; Centro: 6001; Organización de Compras: 01. <br>Una vez creada la variante debes ejecutar el informe.',
             elements: [{
@@ -95,7 +95,7 @@ var sim = {
                 }
             ]
         }, 5: {
-            titulo: '1.	Maestro de Materiales: datos de almacenamiento y stock',
+            titulo: '1.	Informes en SAP: Sistemas Info',
             img: 'img/img_03.png',
             rubric: 'Ejecuta el informe sin indicar el valor de Organización de Compras.<br>Proveedor: 800084; Centro: 6001; Organización de Compras: 01. <br>',
             goto: 6,
@@ -119,7 +119,7 @@ var sim = {
                 }
             ]
         }, 6: {
-            titulo: '1.	Maestro de Materiales: datos de almacenamiento y stock',
+            titulo: '1.	Informes en SAP: Sistemas Info',
             img: 'img/img_11.png',
             rubric: 'Observa el mensaje de error en la parte inferior de la ventana.',
             elements: [{
@@ -130,9 +130,9 @@ var sim = {
                 }
             ]
         }, 7: {
-            titulo: '1.	Maestro de Materiales: datos de almacenamiento y stock',
+            titulo: '1.	Informes en SAP: Sistemas Info',
             img: 'img/img_03.png',
-            rubric: 'Ejecuta el informe indicando como Organización de Compras 01.<br>Proveedor: 800084; Centro: 6001; Organización de Compras: 01. <br>',
+            rubric: 'Ejecuta el informe indicando como Organización de Compras 01.<br>Proveedor: 800084; Centro: 6001. <br>',
             goto: 8,
             elements: [{
                         element: 'input',
@@ -156,13 +156,16 @@ var sim = {
         }, 8: {
             titulo: '1.	Informes en SAP: Sistemas Info',
             img: 'img/img_12.png',
-            rubric: 'Ejecuta el informe indicando como Organización de Compras 01.<br>Proveedor: 800084; Centro: 6001; Organización de Compras: 01. <br>',
+            rubric: 'Ahora vuelve acceder al informe y borra la variante “TEST” creada.',
+            // rubric: 'Ejecuta el informe indicando como Organización de Compras 01.<br>Proveedor: 800084; Centro: 6001; Organización de Compras: 01. <br>',
             elements: [{
                     element: 'div',
-                    styles: 'top: 15%;left: 2%;height: 79%;width: 38.3%;',
+                    styles: 'top: 15%;left: 2%;height: 79%;width: 38.3%; border: none; background: none',
                     correct: 'true',
+                    pressEnter: 'true',
                     goto: 9
-                }
+                },
+                
             ]
         }, 9: {
             titulo: '1.	Informes en SAP: Sistemas Info',
