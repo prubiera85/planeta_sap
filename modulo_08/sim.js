@@ -300,11 +300,25 @@ var sim = {
             img: 'img/img_25.png',
             rubric: 'Paso 2: Generación de la entrega de salida<br>Una vez generado y grabado el pedido de traslado IC se tendrá que crear la entrega de salida a partir del n de pedido de compras obtenido. Tomaremos como n de pedido de compras 5520156443.',
             goto: 20,
-            elements: [{
+            elements: [
+/*                 {
                     element: 'input',
                     type: 'text',
                     styles: 'top: 16.5%;left: 29.7%;height: 1.5%;width: 5%;',
                     correct: '06.09.2018'
+                }, */
+      
+                {
+                    element: 'div',     
+                    pressEnter: 'true',
+                    correct: 'true',
+                    goto: 20
+                },
+                {
+                    element: 'div',     
+                    styles: 'top:23%;left: 10.5%;height:2.5%;width: 9%; border: none; background: none',
+                    correct: 'true',
+                    goto: 20
                 }
             ]
         }, 20: {
@@ -394,7 +408,7 @@ var sim = {
             rubric: 'Paso 3: Comprobación de la cantidad de stock en centro de origen y generación de stock (MI10)<br>Comprobaremos si tenemos suficiente stock del material indicado en la entrega de salida en el centro de origen, en caso de no disponer de suficiente stock se realizará un ajuste de inventario y se generará stock. Una vez generado el stock volveremos a comprobar que se haya creado correctamente.',
             elements: [{
                     element: 'div',
-                    styles: 'top: 15%;left: 1%;height: 28.5%;width: 84.5%;',
+                    styles: 'top: 15%;left: 1%;height: 28.5%;width: 84.5%;background: none;border: none;',
                     correct: 'true',
                     goto: 27,
                 }
