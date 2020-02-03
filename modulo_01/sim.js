@@ -80,6 +80,7 @@ var sim = {
             styles: 'transform: scale(1.5); margin: 14% 25%;',
             // rubric: 'Modifica la contraseña del usuario de acceso y pulsa el botón de visto.',
             rubric: 'Modifica la contraseña del usuario de acceso a SAP2019@',
+            goto: 6,
             elements: [{
                 element: 'input',
                 type: 'password',
@@ -531,8 +532,8 @@ var sim = {
                 correct: 'Maestros Material'
             }
             ]
-        }, 
-        
+        },
+
         // 29: {
         //     titulo: '4.- Organización del Menú SAP',
         //     img: 'img/027.png',
@@ -546,7 +547,7 @@ var sim = {
         //     }
         //     ]
         // }, 
-        
+
         30: {
             titulo: '4.- Organización del Menú SAP',
             img: 'img/029.png',
