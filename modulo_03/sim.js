@@ -323,7 +323,7 @@ var sim = {
                     element: 'input',
                     type: 'text',
                     styles: 'top: 4.2%;left: 3.7%;height: 1.3%;width: 8%;',
-                    correct: 'migo'
+                    correct: 'migo,MIGO'
                 }
             ]
         }, 22: {
