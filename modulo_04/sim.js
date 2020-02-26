@@ -332,7 +332,8 @@ var sim = {
                 element: 'input',
                 type: 'text',
                 styles: 'top: 4.2%;left: 3.7%;height: 1.3%;width: 8%;',
-                correct: 'V03N,v03n'
+                // correct: 'V03N,v03n'
+                correct: 'VL03N,vl03n'
             }
             ]
         }, 24: {
